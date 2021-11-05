@@ -26,7 +26,7 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We make a variable called number and set it to 'dane' as a string.
+// We make a variable called number and set it to 'Dane' as a string.
 // We check if the string is equal to 'Mary' it is not so we move to the next condition.
 // We console.log 'How do you do?'
 //
@@ -48,7 +48,7 @@ if (name === 'Mary') {
 //We make a variable called secret.
 //We make a variable called code and set it to 123 as a number.
 //We check if code is equal to 123, it is so we set secret equal to the string "super".
-//and we reasign code to equal code multiplied by 2 which means code is now 246.
+//and we reassign code to equal code multiplied by 2 which means code is now 246.
 //We check if code is greater then 250, it is not so the next line dose not run.
 //We console.log secret and get the string "super".
 //CODE
@@ -134,10 +134,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX -variables-- instructions have colorOne as 'blue' and colorTwo as red they are reverse.
+// let colorOne = "blue" --- let colorTwo = "red"
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+//FIX -conditionals--only changes colorOne but instructions ask for colorOne and colorTwo be be made purple.
+//  add colorTwo = "purple" to conditional.
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -150,7 +153,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+//FIX-conditional-- dose either conditions but instruction ask for both conditions to be met.
+// should be && between conditions.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -163,10 +167,15 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//FIX-conditional--first console.log says "no entry" if minAge is less then age.
+//Instructions ask it to say "enter"
+//the else statment console.log states 'enter' it should state 'no entry'
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
+// FIX-Not sure if this was needed but question 6 asks the condition to check if age is greater
+//then or equal to minAge but the code checks if minAge is less then or equal to age. It has the same meaning
+//but written a diffrent way. I would fix because its in the directions. if(age >= minAge){}
