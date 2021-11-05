@@ -26,7 +26,7 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We make a variable called number and set it to 'Dane' as a string.
+// We make a variable called name and set it to 'Dane' as a string.
 // We check if the string is equal to 'Mary' it is not so we move to the next condition.
 // We console.log 'How do you do?'
 //
